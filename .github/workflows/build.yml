@@ -27,9 +27,9 @@ jobs:
             git zip unzip openjdk-17-jdk autoconf libtool pkg-config \
             zlib1g-dev libncurses-dev cmake libffi-dev libssl-dev
 
-      - name: Install Buildozer
+      - name: Install Buildozer & Dependencies
         run: |
-          python -m pip install --upgrade pip setuptools
+          python -m pip install --upgrade pip setuptools virtualenv
           pip install buildozer cython==0.29.33 kivy
 
       - name: Build APK with Buildozer
