@@ -1,4 +1,5 @@
-le = Combo Filter
+[app]
+title = Combo Filter
 package.name = combofilter
 package.domain = com.erickstream
 source.dir = .
