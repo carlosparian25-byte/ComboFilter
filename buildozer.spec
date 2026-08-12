@@ -10,3 +10,8 @@ android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, MANAGE_EXTE
 orientation = portrait
 fullscreen = 0
 android.accept_sdk_license = True
+
+# Forzar versiones estables de compilación
+android.api = 33
+android.minapi = 24
+android.ndk = 25b
